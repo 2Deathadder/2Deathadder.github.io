@@ -1,1 +1,1 @@
-Site racine de 2deathadder.github.io : `robots.txt` (lien vers le sitemap) et redirection vers [Coreboard](https://2deathadder.github.io/coreboard/).
+Site racine de 2deathadder.github.io : page d'accueil qui présente [linwin](https://2deathadder.github.io/linwin/) et [Coreboard](https://2deathadder.github.io/coreboard/), et `robots.txt` qui déclare leurs deux sitemaps.

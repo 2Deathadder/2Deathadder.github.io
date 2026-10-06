@@ -3,11 +3,47 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Coreboard — Centre de contrôle matériel pour Linux</title>
-<meta name="robots" content="noindex, follow">
-<link rel="canonical" href="https://2deathadder.github.io/coreboard/">
-<meta http-equiv="refresh" content="0; url=https://2deathadder.github.io/coreboard/">
-<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#070506;color:#f4eff0;font:15px/1.6 ui-monospace,monospace}a{color:#ff4560}</style>
+<title>2Deathadder — Logiciels libres pour Linux : linwin et Coreboard</title>
+<meta name="description" content="Projets libres de 2Deathadder pour Linux : linwin installe Windows 10 en dual-boot sans clé USB, Coreboard est un centre de contrôle matériel natif (alternative à Armoury Crate).">
+<link rel="canonical" href="https://2deathadder.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="2Deathadder — Logiciels libres pour Linux">
+<meta property="og:description" content="linwin : Windows 10 en dual-boot sans clé USB. Coreboard : centre de contrôle matériel natif pour Linux.">
+<meta property="og:url" content="https://2deathadder.github.io/">
+<meta property="og:image" content="https://2deathadder.github.io/coreboard/img/social-preview.png">
+<style>
+  :root { --bg: #0b0b0e; --panel: #131318; --line: #24242c; --text: #f2f2f5; --muted: #a0a0ab; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, sans-serif; }
+  main { max-width: 1040px; margin: 0 auto; padding: 56px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: -.01em; }
+  .lead { color: var(--muted); margin: 0 0 36px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+  a.card { display: block; text-decoration: none; color: inherit; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; transition: border-color .15s, transform .15s; }
+  a.card:hover { border-color: #55555f; transform: translateY(-2px); }
+  a.card img { width: 100%; aspect-ratio: 2 / 1; object-fit: cover; display: block; background: #000; }
+  .body { padding: 18px 20px 22px; }
+  h2 { margin: 0 0 6px; font-size: 20px; }
+  .body p { margin: 0; color: var(--muted); font-size: 15px; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
+  footer a { color: var(--text); }
+</style>
 </head>
-<body><p>Redirection vers <a href="https://2deathadder.github.io/coreboard/">Coreboard</a>…</p></body>
+<body>
+<main>
+  <h1>2Deathadder</h1>
+  <p class="lead">Logiciels libres (GPL-3.0) pour Linux.</p>
+  <div class="grid">
+    <a class="card" href="/linwin/">
+      <img src="/linwin/og.png" width="1200" height="600" alt="linwin : Windows 10 en dual-boot depuis Linux, sans clé USB">
+      <div class="body"><h2>linwin</h2><p>Windows 10 en dual-boot depuis Linux, sans clé USB : installation automatique, pilotes inclus, GRUB, systemd-boot, Limine et rEFInd.</p></div>
+    </a>
+    <a class="card" href="/coreboard/">
+      <img src="/coreboard/img/social-preview.png" width="1280" height="640" alt="Coreboard : le centre de contrôle matériel natif pour Linux">
+      <div class="body"><h2>Coreboard</h2><p>Centre de contrôle matériel natif pour Linux : performances, CPU et GPU, écran, RGB, scénarios et jeux Windows. Alternative à Armoury Crate.</p></div>
+    </a>
+  </div>
+  <footer>Code source sur <a href="https://github.com/2Deathadder">GitHub</a>.</footer>
+</main>
+</body>
 </html>
